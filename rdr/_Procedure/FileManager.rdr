@@ -38,7 +38,7 @@
 			//元作品タイトルプリセットのファイル情報を設定
 			元作品タイトルプリセットのプリセットファイル=プリセットファイルというファイル情報(「[アプリのプリセットフォルダー]MIRAIOriginalTitlePreset_[ファイル管理器のメインコンフィグ設定から「FilenameGenerator.Preset.Genre.Name」を得たもの].json」)を作ったもの
 			//拡張子プリセットのファイル情報を設定
-			拡張子プリセットのプリセットファイル=プリセットファイルというファイル情報(「[アプリのプリセットフォルダー]MIRAIFilenameExtensionPreset_[ファイル管理器のメインコンフィグ設定から「FilenameGenerator.Preset.FilenameExtension.Name」を得たもの].json」)を作ったもの
+			拡張子プリセットのプリセットファイル=プリセットファイルというファイル情報(「[アプリのプリセットフォルダー]MIRAIFilenameExtensionPreset.json」)を作ったもの
 			
 			//プリセットファイルが存在しない場合、初期値から作成する
 				//元作品タイトルプリセットファイル(ゲーム)
