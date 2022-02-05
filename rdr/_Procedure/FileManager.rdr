@@ -5,7 +5,7 @@
 	-メインコンフィグ管理器=メインコンフィグ管理器というコンフィグチェッカーを作ったもの
 	-メインコンフィグアプリ情報項目={「Version」=[アプリのバージョン],「InternalVersion」=[アプリの内部バージョン]}
 	-メインコンフィグ設定項目={ //メインコンフィグ項目
-		「FilenameGenerator.Preset.Format.Text」=「:1:-:2::拡張子:」,
+		「FilenameGenerator.Preset.Format.Text」=「:1:-:2:_:年::月::日::拡張子:」,
 		「FilenameGenerator.Preset.Format.WithoutSpace」=「○」,
 		「FilenameGenerator.Preset.Genre.Name」=「ゲーム」,
 		「FilenameGenerator.Preset.Genre.Index」=「1」,
