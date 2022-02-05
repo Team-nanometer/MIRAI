@@ -434,11 +434,11 @@
 		ファイル管理器のメインコンフィグ設定へ「FilenameGenerator.Preset.Genre.Name」として[選択リスト1の内容]を設定する
 		ファイル管理器のメインコンフィグ設定へ「FilenameGenerator.Preset.Genre.Index」として[選択リスト1の選択番号]を設定する
 		//元作品タイトル選択リスト
-		ファイル管理器のメインコンフィグ設定へ「FilenameGenerator.Preset.OriginalTitle.Name」として[選択リスト4の内容]を設定する
-		ファイル管理器のメインコンフィグ設定へ「FilenameGenerator.Preset.OriginalTitle.Index」として[選択リスト4の選択番号]を設定する
+		ファイル管理器のメインコンフィグ設定へ「FilenameGenerator.Preset.Type_1.Name」として[選択リスト4の内容]を設定する
+		ファイル管理器のメインコンフィグ設定へ「FilenameGenerator.Preset.Type_1.Index」として[選択リスト4の選択番号]を設定する
 		//キャラクター名選択リスト
-		ファイル管理器のメインコンフィグ設定へ「FilenameGenerator.Preset.Model.Name」として[選択リスト2の内容]を設定する
-		ファイル管理器のメインコンフィグ設定へ「FilenameGenerator.Preset.Model.Index」として[選択リスト2の選択番号]を設定する
+		ファイル管理器のメインコンフィグ設定へ「FilenameGenerator.Preset.Type_2.Name」として[選択リスト2の内容]を設定する
+		ファイル管理器のメインコンフィグ設定へ「FilenameGenerator.Preset.Type_2.Index」として[選択リスト2の選択番号]を設定する
 		//拡張子選択リスト
 		ファイル管理器のメインコンフィグ設定へ「FilenameGenerator.Preset.FilenameExtension.Name」として[選択リスト5の内容]を設定する
 		ファイル管理器のメインコンフィグ設定へ「FilenameGenerator.Preset.FilenameExtension.Index」として[選択リスト5の選択番号]を設定する
@@ -463,11 +463,11 @@
 			
 			//元作品タイトル選択リスト
 			//選択リスト4の選択番号を[ファイル管理器のメインコンフィグ設定から「FilenameGenerator.Preset.OriginalTitle.Index」を得たもの]に変える
-			選択リスト4の内容を[ファイル管理器のメインコンフィグ設定から「FilenameGenerator.Preset.OriginalTitle.Name」を得たもの]に変える
+			選択リスト4の内容を[ファイル管理器のメインコンフィグ設定から「FilenameGenerator.Preset.Type_1.Name」を得たもの]に変える
 			
 			//キャラクター名選択リスト
 			//選択リスト2の選択番号を[ファイル管理器のメインコンフィグ設定から「FilenameGenerator.Preset.Model.Index」を得たもの]に変える
-			選択リスト2の内容を[ファイル管理器のメインコンフィグ設定から「FilenameGenerator.Preset.Model.Name」を得たもの]に変える
+			選択リスト2の内容を[ファイル管理器のメインコンフィグ設定から「FilenameGenerator.Preset.Type_2.Name」を得たもの]に変える
 			
 			//拡張子選択リスト
 			//選択リスト5の選択番号を[ファイル管理器のメインコンフィグ設定から「FilenameGenerator.Preset.FilenameExtension.Index」を得たもの]に変える

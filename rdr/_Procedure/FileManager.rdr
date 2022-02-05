@@ -9,10 +9,10 @@
 		「FilenameGenerator.Preset.Format.WithoutSpace」=「○」,
 		「FilenameGenerator.Preset.Genre.Name」=「ゲーム」,
 		「FilenameGenerator.Preset.Genre.Index」=「1」,
-		「FilenameGenerator.Preset.OriginalTitle.Name」=「Apex Legends」,
-		「FilenameGenerator.Preset.OriginalTitle.Index」=「1」,
-		「FilenameGenerator.Preset.Model.Name」=「Bloodhound」,
-		「FilenameGenerator.Preset.Model.Index」=「2」,
+		「FilenameGenerator.Preset.Type_1.Name」=「Apex Legends」,
+		「FilenameGenerator.Preset.Type_1.Index」=「1」,
+		「FilenameGenerator.Preset.Type_2.Name」=「Bloodhound」,
+		「FilenameGenerator.Preset.Type_2.Index」=「2」,
 		「FilenameGenerator.Preset.FilenameExtension.Name」=「.ai」,
 		「FilenameGenerator.Preset.FilenameExtension.Index」=「2」
 	}
