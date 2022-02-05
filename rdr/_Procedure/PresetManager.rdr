@@ -108,9 +108,36 @@
 	
 	+初期プリセット={
 		「Main」={
+			「- 画像ファイル -」,
+			「.ai」,
+			「.bmp」,
+			「.cdr」,
+			「.eps」,
+			「.epsf」,
+			「.epsi」,
+			「.gif」,
+			「.heic」,
+			「.heif」,
 			「.jpg」,
 			「.jpeg」,
-			「.png」
+			「.jfif」,
+			「.jfi」,
+			「.pdf」,
+			「.png」,
+			「.psd」,
+			「.psb」,
+			「.pdd」,
+			「.svg」,
+			「.tiff」,
+			「.tif」,
+			「.webp」,
+			「- 動画ファイル -」,
+			「.avi」,
+			「.mkv」,
+			「.mov」,
+			「.mp4」,
+			「.mpeg」,
+			「.webm」,
 		}
 	}
 終わり
