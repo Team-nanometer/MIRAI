@@ -13,6 +13,8 @@
 		「FilenameGenerator.Preset.Type_1.Index」=「1」,
 		「FilenameGenerator.Preset.Type_2.Name」=「Bloodhound」,
 		「FilenameGenerator.Preset.Type_2.Index」=「2」,
+		「FilenameGenerator.Preset.Custom_1.Text」=「」,
+		「FilenameGenerator.Preset.Custom_2.Text」=「」,
 		「FilenameGenerator.Preset.FilenameExtension.Name」=「.ai」,
 		「FilenameGenerator.Preset.FilenameExtension.Index」=「2」
 	}
