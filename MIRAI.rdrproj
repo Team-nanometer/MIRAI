@@ -8,7 +8,7 @@
     <項目 位置="rdr\_Procedure\FilenameGeneratorFormatParser.rdr" 開く="○" />
     <項目 位置="rdr\_Procedure\Updater.rdr" 開く="○" />
   </一覧>
-  <バージョン 値="0.3.0.0">
+  <バージョン 値="0.3.1.0">
     <項目 名前="Comments" 値="Formatted file name generator." />
     <項目 名前="FileDescription" 値="MIRAI" />
     <項目 名前="CompanyName" 値="Team nanometer" />
