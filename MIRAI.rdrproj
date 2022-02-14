@@ -7,6 +7,7 @@
     <項目 位置="rdr\_Procedure\FileManager.rdr" 開く="○" />
     <項目 位置="rdr\_Procedure\FilenameGeneratorFormatParser.rdr" 開く="○" />
     <項目 位置="rdr\_Procedure\Updater.rdr" 開く="○" />
+    <項目 位置="rdr\_Procedure\SoundDeviceManager.rdr" 開く="○" />
   </一覧>
   <バージョン 値="0.4.0.0">
     <項目 名前="Comments" 値="A comprehensive utility application" />
