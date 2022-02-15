@@ -4,7 +4,7 @@
 	-コンフィグ=コンフィグという設定ファイルを作ったもの
 	-メインコンフィグ管理器=メインコンフィグ管理器というコンフィグチェッカーを作ったもの
 	-メインコンフィグアプリ情報項目={「Version」=[アプリのバージョン],「InternalVersion」=[アプリの内部バージョン]}
-	-メインコンフィグ設定項目={ //メインコンフィグ項目
+	-メインコンフィグ設定項目={ //ファイル名生成関連設定
 		「FilenameGenerator.Preset.Format.Text」=「:1:-:2:_:年::月::日::拡張子:」,
 		「FilenameGenerator.Preset.Format.WithoutSpace」=「○」,
 		「FilenameGenerator.Preset.Genre.Name」=「ゲーム」,
@@ -16,16 +16,18 @@
 		「FilenameGenerator.Preset.Custom_1.Text」=「」,
 		「FilenameGenerator.Preset.Custom_2.Text」=「」,
 		「FilenameGenerator.Preset.FilenameExtension.Name」=「.ai」,
-		「FilenameGenerator.Preset.FilenameExtension.Index」=「2」
+		「FilenameGenerator.Preset.FilenameExtension.Index」=「2」,
+		//サウンドデバイスマネージャー関連設定
+		「SoundDeviceManager.RenderDevice.DefaultDevice.Index」=「1」,
+		「SoundDeviceManager.RenderDevice.DefaultCommunicationDevice.Index」=「1」,
+		「SoundDeviceManager.CaptureDevice.DefaultDevice.Index」=「1」,
+		「SoundDeviceManager.CaptureDevice.DefaultCommunicationDevice.Index」=「1」
 	}
 
 	+メインコンフィグ設定:辞書
 
 	自分でファイルチェックする手順 //フォルダー&コンフィグ&プリセットのチェック
 		メインコンフィグ管理器の設定ファイル名=コンフィグ
-		
-		//リソースフォルダーの中身を全て消す
-		「[今の位置]Resources\*」を削除する
 			
 		////フォルダーチェック////
 			もしアプリのコンフィグフォルダーが存在しないならアプリのコンフィグフォルダーを作成する	//ドキュメントフォルダーへアプリ名のフォルダーが存在しない場合、フォルダーを作成する
@@ -74,13 +76,6 @@
 			繰り返し終わり
 			元作品タイトルプリセットのプリセットファイル一覧を名前順に並び替える
 		////プリセットの読み込み////
-		
-		////リソースファイルのコピー////
-			//NirCmd
-			素材リストから「NirCmd.chm」を「[今の位置]Resources\Modules\NirCmd\NirCmd.chm」へ保存する
-			素材リストから「nircmd.exe」を「[今の位置]Resources\Modules\NirCmd\nircmd.exe」へ保存する
-			素材リストから「nircmdc.exe」を「[今の位置]Resources\Modules\NirCmd\nircmdc.exe」へ保存する
-		////リソースファイルのコピー////
 	終わり
 
 	自分でコンフィグ保存手順
