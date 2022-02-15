@@ -2,3 +2,5 @@ BuildConfig.ini
 BuildDate.txt
 BuildVersion.txt
 _Build
+_Debug
+MIRAI.exe

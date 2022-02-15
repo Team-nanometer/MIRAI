@@ -14,10 +14,10 @@
     <項目 名前="FileDescription" 値="MIRAI" />
     <項目 名前="CompanyName" 値="Team nanometer" />
     <項目 名前="ProductName" 値="MIRAI" />
-    <項目 名前="LegalCopyright" 値="Copyright 2022 Team nanometer" />
+    <項目 名前="LegalCopyright" 値="MIRAI © 2022 Team nanometer" />
   </バージョン>
   <リソース>
     <項目 名前="アイコン" 値="Resources\Logo\MIRAI_Logo_Icon.ico" />
   </リソース>
-  <実行開始 モード="RunAs" パス="C:\Users\Milkeyyy\Documents\GitHub\Produire\MIRAI\_dbg.bat" 形式="Executable" />
+  <実行開始 モード="RunAs" パス="C:\Users\Milkeyyy\Documents\GitHub\Produire\MIRAI\_dbg_noarg.bat" 形式="Executable" />
 </プロジェクト>
