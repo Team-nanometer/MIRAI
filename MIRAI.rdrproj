@@ -8,16 +8,17 @@
     <項目 位置="rdr\_Procedure\FilenameGeneratorFormatParser.rdr" 開く="○" />
     <項目 位置="rdr\_Procedure\Updater.rdr" 開く="○" />
     <項目 位置="rdr\_Procedure\SoundDeviceManager.rdr" 開く="○" />
+    <項目 位置="rdr\_Procedure\NotificationAreaIconManager.rdr" 開く="○" />
   </一覧>
   <バージョン 値="0.4.0.0">
-    <項目 名前="Comments" 値="A comprehensive utility application" />
+    <項目 名前="Comments" 値="総合ユーティリティアプリケーション / A comprehensive utility application" />
     <項目 名前="FileDescription" 値="MIRAI" />
     <項目 名前="CompanyName" 値="Team nanometer" />
     <項目 名前="ProductName" 値="MIRAI" />
-    <項目 名前="LegalCopyright" 値="MIRAI © 2022 Team nanometer" />
+    <項目 名前="LegalCopyright" 値="MIRAI (c) 2022 Team nanometer" />
   </バージョン>
   <リソース>
     <項目 名前="アイコン" 値="Resources\Logo\MIRAI_Logo_Icon.ico" />
   </リソース>
-  <実行開始 モード="RunAs" パス="C:\Users\Milkeyyy\Documents\GitHub\Produire\MIRAI\_dbg_noarg.bat" 形式="Executable" />
+  <実行開始 モード="OnDesigner" パス="C:\Users\Milkeyyy\Documents\GitHub\Produire\MIRAI\_dbg_noarg.bat" 形式="Executable" />
 </プロジェクト>
