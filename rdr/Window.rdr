@@ -7,9 +7,6 @@
 「..\Resources\Icons\gear.png」を素材として利用する
 「..\Resources\Icons\note.png」を素材として利用する
 「..\Resources\Icons\quillpensquare.png」を素材として利用する
-「..\Resources\Modules\NirCmd\NirCmd.chm」を素材として利用する
-「..\Resources\Modules\NirCmd\nircmd.exe」を素材として利用する
-「..\Resources\Modules\NirCmd\nircmdc.exe」を素材として利用する
 
 メイン画面とは
 	ウィンドウを継承する
@@ -1026,7 +1023,26 @@
 	終わり
 	
 	ボタン14がクリックされた時の手順 //適用ボタン
+		/*「[(選択リスト6の選択項目を「 | 」で区切ったもの(1))]
+
+[(選択リスト7の選択項目を「 | 」で区切ったもの(1))]
+
+[(選択リスト3の選択項目を「 | 」で区切ったもの(1))]
+
+[(選択リスト8の選択項目を「 | 」で区切ったもの(1))]」を表示する*/
+		////再生デバイス////
+			//既定のデバイス
+			「"[今の位置]Resources\Modules\NirCmd\nircmd.exe"」を「setdefaultsounddevice "[(選択リスト6の選択項目を「 | 」で区切ったもの(2))]" 1」として「裏」で起動する
+			//既定の通信デバイス
+			「"[今の位置]Resources\Modules\NirCmd\nircmd.exe"」を「setdefaultsounddevice "[(選択リスト7の選択項目を「 | 」で区切ったもの(2))]" 2」として「裏」で起動する
+		////再生デバイス////
 		
+		////録音デバイス////
+			//既定のデバイス
+			「"[今の位置]Resources\Modules\NirCmd\nircmd.exe"」を「setdefaultsounddevice "[(選択リスト3の選択項目を「 | 」で区切ったもの(2))]" 1」として「裏」で起動する
+			//既定の通信デバイス
+			「"[今の位置]Resources\Modules\NirCmd\nircmd.exe"」を「setdefaultsounddevice "[(選択リスト8の選択項目を「 | 」で区切ったもの(2))]" 2」として「裏」で起動する
+		////録音デバイス////
 	終わり
 	////サウンドデバイスマネージャータブ////
 	
