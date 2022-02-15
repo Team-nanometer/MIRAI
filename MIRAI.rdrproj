@@ -20,5 +20,5 @@
   <リソース>
     <項目 名前="アイコン" 値="Resources\Logo\MIRAI_Logo_Icon.ico" />
   </リソース>
-  <実行開始 モード="OnDesigner" パス="C:\Users\Milkeyyy\Documents\GitHub\Produire\MIRAI\_dbg_noarg.bat" 形式="Executable" />
+  <実行開始 モード="AsNewProcess" パス="C:\Users\Milkeyyy\Documents\GitHub\Produire\MIRAI\_dbg_noarg.bat" 形式="Executable" />
 </プロジェクト>
