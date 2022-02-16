@@ -4,27 +4,66 @@
 	-コンフィグ=コンフィグという設定ファイルを作ったもの
 	-メインコンフィグ管理器=メインコンフィグ管理器というコンフィグチェッカーを作ったもの
 	-メインコンフィグアプリ情報項目={「Version」=[アプリのバージョン],「InternalVersion」=[アプリの内部バージョン]}
-	-メインコンフィグ設定項目={ //ファイル名生成関連設定
-		「FilenameGenerator.Preset.Format.Text」=「:1:-:2:_:年::月::日::拡張子:」,
-		「FilenameGenerator.Preset.Format.WithoutSpace」=「○」,
-		「FilenameGenerator.Preset.Genre.Name」=「ゲーム」,
-		「FilenameGenerator.Preset.Genre.Index」=「1」,
-		「FilenameGenerator.Preset.Type_1.Name」=「Apex Legends」,
-		「FilenameGenerator.Preset.Type_1.Index」=「1」,
-		「FilenameGenerator.Preset.Type_2.Name」=「Bloodhound」,
-		「FilenameGenerator.Preset.Type_2.Index」=「2」,
-		「FilenameGenerator.Preset.Custom_1.Text」=「」,
-		「FilenameGenerator.Preset.Custom_2.Text」=「」,
-		「FilenameGenerator.Preset.FilenameExtension.Name」=「.ai」,
-		「FilenameGenerator.Preset.FilenameExtension.Index」=「2」,
-		//サウンドデバイスマネージャー関連設定
-		「SoundDeviceManager.RenderDevice.DefaultDevice.Index」=「1」,
-		「SoundDeviceManager.RenderDevice.DefaultCommunicationDevice.Index」=「1」,
-		「SoundDeviceManager.CaptureDevice.DefaultDevice.Index」=「1」,
-		「SoundDeviceManager.CaptureDevice.DefaultCommunicationDevice.Index」=「1」
+	-ホットキー設定項目={ //ホットキー設定
+		「KeySet_1.AssignmentKey.Any」=「Y」,
+		「KeySet_1.AssignmentKey.Shift」=「×」,
+		「KeySet_1.AssignmentKey.Ctrl」=「○」,
+		「KeySet_1.AssignmentKey.Alt」=「○」,
+		「KeySet_1.AssignmentKey.Win」=「×」,
+		「KeySet_1.AssignmentTab.Index」=「1」,
+		
+		「KeySet_2.AssignmentKey.Any」=「U」,
+		「KeySet_2.AssignmentKey.Shift」=「×」,
+		「KeySet_2.AssignmentKey.Ctrl」=「○」,
+		「KeySet_2.AssignmentKey.Alt」=「○」,
+		「KeySet_2.AssignmentKey.Win」=「×」,
+		「KeySet_2.AssignmentTab.Index」=「1」,
+		
+		「KeySet_3.AssignmentKey.Any」=「I」,
+		「KeySet_3.AssignmentKey.Shift」=「×」,
+		「KeySet_3.AssignmentKey.Ctrl」=「○」,
+		「KeySet_3.AssignmentKey.Alt」=「○」,
+		「KeySet_3.AssignmentKey.Win」=「×」,
+		「KeySet_3.AssignmentTab.Index」=「1」,
+		
+		「KeySet_4.AssignmentKey.Any」=「O」,
+		「KeySet_4.AssignmentKey.Shift」=「×」,
+		「KeySet_4.AssignmentKey.Ctrl」=「○」,
+		「KeySet_4.AssignmentKey.Alt」=「○」,
+		「KeySet_4.AssignmentKey.Win」=「×」,
+		「KeySet_4.AssignmentTab.Index」=「1」,
+		
+		「KeySet_5.AssignmentKey.Any」=「P」,
+		「KeySet_5.AssignmentKey.Shift」=「×」,
+		「KeySet_5.AssignmentKey.Ctrl」=「○」,
+		「KeySet_5.AssignmentKey.Alt」=「○」,
+		「KeySet_5.AssignmentKey.Win」=「×」,
+		「KeySet_5.AssignmentTab.Index」=「1」
+	}
+	-ファイル名生成設定項目={ //ファイル名生成関連設定
+		「Preset.Format.Text」=「:1:-:2:_:年::月::日::拡張子:」,
+		「Preset.Format.WithoutSpace」=「○」,
+		「Preset.Genre.Name」=「ゲーム」,
+		「Preset.Genre.Index」=「1」,
+		「Preset.Type_1.Name」=「Apex Legends」,
+		「Preset.Type_1.Index」=「1」,
+		「Preset.Type_2.Name」=「Bloodhound」,
+		「Preset.Type_2.Index」=「2」,
+		「Preset.Custom_1.Text」=「」,
+		「Preset.Custom_2.Text」=「」,
+		「Preset.FilenameExtension.Name」=「.ai」,
+		「Preset.FilenameExtension.Index」=「2」
+	}
+	-サウンドデバイスマネージャー設定項目={ //サウンドデバイスマネージャー設定
+		「RenderDevice.DefaultDevice.Index」=「1」,
+		「RenderDevice.DefaultCommunicationDevice.Index」=「1」,
+		「CaptureDevice.DefaultDevice.Index」=「1」,
+		「CaptureDevice.DefaultCommunicationDevice.Index」=「1」
 	}
 
-	+メインコンフィグ設定:辞書
+	+ファイル名生成設定:辞書
+	+サウンドデバイスマネージャー設定:辞書
+	+ホットキー設定:辞書
 
 	自分でファイルチェックする手順 //フォルダー&コンフィグ&プリセットのチェック
 		メインコンフィグ管理器の設定ファイル名=コンフィグ
@@ -40,14 +79,26 @@
 
 		////コンフィグの設定&読み込み////
 			コンフィグのファイル名=「[アプリのコンフィグフォルダーの絶対パス]Config.ini」
+			もし[コンフィグのファイル名]が存在するなら //既にコンフィグファイルが存在する場合、バージョンをチェックして220204以下であれば新たにコンフィグを生成して古いコンフィグはファイル名を変更する
+				もし[コンフィグについて「App」から「InternalVersion」を取得したもの]<220205なら
+					「[アプリのコンフィグフォルダー]Config.ini」を「Config_Old.ini」へ変更する
+					「コンフィグファイルが現在のバージョンに対応していない形式だったため、新しく生成します。[改行]以前のコンフィグファイルは以下の場所に保存されています。[改行]"[アプリのコンフィグフォルダー]Config_Old_[コンフィグについて「App」から「InternalVersion」を取得したもの].ini"」を警告アイコンで表示する
+				もし終わり
+			もし終わり
+			
 			メインコンフィグ管理器で「App」をメインコンフィグアプリ情報項目としてコンフィグチェックする //アプリ情報をコンフィグへ書き込み
-			メインコンフィグ管理器で「Settings」をメインコンフィグ設定項目としてコンフィグチェックする //初期設定項目を書き込み (既に設定されている項目は上書きしない)
-			メインコンフィグ設定=コンフィグについて「Settings」からすべて取得したもの //コンフィグから設定項目を読み込み
+			メインコンフィグ管理器で「Hotkey」をホットキー設定項目としてコンフィグチェックする //初期設定項目を書き込み (既に設定されている項目は上書きしない)
+			メインコンフィグ管理器で「FilenameGenerator」をファイル名生成設定項目としてコンフィグチェックする //初期設定項目を書き込み (既に設定されている項目は上書きしない)
+			メインコンフィグ管理器で「SoundDeviceManager」をサウンドデバイスマネージャー設定項目としてコンフィグチェックする //初期設定項目を書き込み (既に設定されている項目は上書きしない)
+			
+			ホットキー設定=コンフィグについて「Hotkey」からすべて取得したもの //コンフィグから設定項目を読み込み
+			ファイル名生成設定=コンフィグについて「FilenameGenerator」からすべて取得したもの //コンフィグから設定項目を読み込み
+			サウンドデバイスマネージャー設定=コンフィグについて「SoundDeviceManager」からすべて取得したもの //コンフィグから設定項目を読み込み
 		////コンフィグの設定&読み込み////
 
 		////プリセットの読み込み////
 			//元作品タイトルプリセットのファイル情報を設定
-			元作品タイトルプリセットのプリセットファイル=プリセットファイルというファイル情報(「[アプリのプリセットフォルダー]MIRAIFilenameGeneratorPreset_[ファイル管理器のメインコンフィグ設定から「FilenameGenerator.Preset.Genre.Name」を得たもの].json」)を作ったもの
+			元作品タイトルプリセットのプリセットファイル=プリセットファイルというファイル情報(「[アプリのプリセットフォルダー]MIRAIFilenameGeneratorPreset_[ファイル管理器のファイル名生成設定から「Preset.Genre.Name」を得たもの].json」)を作ったもの
 			//拡張子プリセットのファイル情報を設定
 			拡張子プリセットのプリセットファイル=プリセットファイルというファイル情報(「[アプリのプリセットフォルダー]MIRAIFilenameExtensionPreset.json」)を作ったもの
 			
@@ -79,8 +130,16 @@
 	終わり
 
 	自分でコンフィグ保存手順
-		ファイル管理器のメインコンフィグ設定の見出しを設定内容へそれぞれ繰り返す
-			コンフィグについて「Settings」で設定内容へファイル管理器のメインコンフィグ設定(設定内容)を設定する
+		ファイル管理器のホットキー設定の見出しを設定内容へそれぞれ繰り返す //ホットキー設定
+			コンフィグについて「Hotkey」で設定内容へファイル管理器のホットキー設定(設定内容)を設定する
+		繰り返し終わり
+		
+		ファイル管理器のファイル名生成設定の見出しを設定内容へそれぞれ繰り返す //ファイル名生成設定
+			コンフィグについて「FilenameGenerator」で設定内容へファイル管理器のファイル名生成設定(設定内容)を設定する
+		繰り返し終わり
+		
+		ファイル管理器のサウンドデバイスマネージャー設定の見出しを設定内容へそれぞれ繰り返す //サウンドデバイスマネージャー設定
+			コンフィグについて「SoundDeviceManager」で設定内容へファイル管理器のサウンドデバイスマネージャー設定(設定内容)を設定する
 		繰り返し終わり
 	終わり
 終わり
