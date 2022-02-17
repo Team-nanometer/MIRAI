@@ -1,0 +1,18 @@
+ニュース管理器とは
+	単一種類
+	
+	//-ニュースデータURL=「https://news.google.com/rss/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNRE5mTTJRU0FtVnVLQUFQAQ?hl=ja&gl=JP&ceid=JP:ja」
+	-ニュースデータURL=「https://news.google.com/rss/topics/CAAqKAgKIiJDQkFTRXdvSkwyMHZNR1ptZHpWbUVnSnFZUm9DU2xBb0FBUAE?hl=ja&gl=JP&ceid=JP%3Aja」
+	+ニュースデータ:辞書
+	
+	自分でニュースデータ取得する手順:辞書
+		ニュースデータ={「」=「」}
+		
+		ニュースデータXML=「[ニュースデータURL]」をXMLとして開いたもの
+		
+		ニュースデータXMLから「rss\channel\item」を取得したものを要素へそれぞれ繰り返す
+			ニュースデータへ[要素の「title」の内容]として[要素の「link」の内容]を設定する
+		繰り返し終わり
+		ニュースデータを返す
+	終わり
+終わり
