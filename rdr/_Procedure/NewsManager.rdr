@@ -2,17 +2,25 @@
 	単一種類
 	
 	//-ニュースデータURL=「https://news.google.com/rss/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNRE5mTTJRU0FtVnVLQUFQAQ?hl=ja&gl=JP&ceid=JP:ja」
-	-ニュースデータURL=「https://news.google.com/rss/topics/CAAqKAgKIiJDQkFTRXdvSkwyMHZNR1ptZHpWbUVnSnFZUm9DU2xBb0FBUAE?hl=ja&gl=JP&ceid=JP%3Aja」
-	+ニュースデータ:辞書
+	//-ニュースデータURL=「https://news.google.com/rss/topics/CAAqKAgKIiJDQkFTRXdvSkwyMHZNR1ptZHpWbUVnSnFZUm9DU2xBb0FBUAE?hl=ja&gl=JP&ceid=JP%3Aja」
+	-ニュースデータURL=「https://news.mynavi.jp/rss/index」
 	
 	自分でニュースデータ取得する手順:辞書
-		ニュースデータ={「」=「」}
+		ニュースデータという辞書を作る
 		
 		ニュースデータXML=「[ニュースデータURL]」をXMLとして開いたもの
 		
-		ニュースデータXMLから「rss\channel\item」を取得したものを要素へそれぞれ繰り返す
-			ニュースデータへ[要素の「title」の内容]として[要素の「link」の内容]を設定する
+		ニュースデータXMLから「rdf:RDF\item」を取得したものを要素へそれぞれ繰り返す
+			//配列の内容: 1=説明 2=画像URL 3=記事URL 4=日付時刻
+			ニュースデータへ「[要素の要素一覧(1)の内容]」として{「[要素の要素一覧(2)の内容]」,「[要素の要素一覧(3)の内容]」,「[要素の要素一覧(4)の内容]」,「[要素の要素一覧(5)の内容]」}を設定する
 		繰り返し終わり
+		
+		//Google ニュース
+		/*ニュースデータXMLから「rss\channel\item」を取得したものを要素へそれぞれ繰り返す
+			//要素の内容を表示する
+			ニュースデータへ[要素の「title」の内容]として[要素の「link」の内容]を設定する
+		繰り返し終わり*/
+		
 		ニュースデータを返す
 	終わり
 終わり
