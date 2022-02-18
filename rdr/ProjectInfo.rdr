@@ -10,7 +10,7 @@
 	+ディスプレイスケール値={120,120}
 	+作者=「Team nanometer」
 	+作者ウェブURL=「https://github.com/Team-nanometer」
-	+内部バージョン=「220205」
+	+内部バージョン=「220208」
 	-モジュール一覧={「NirCmd」=「Copyright (c) 2003 - 2019 Nir Sofer」}
 	+モジュール一覧テキスト=「」
 	

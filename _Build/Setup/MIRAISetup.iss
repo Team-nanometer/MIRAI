@@ -2,8 +2,8 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "MIRAI"
-#define MyAppVersion "0.4.0.0"
-#define MyAppVersionS "0.4.0.0"
+#define MyAppVersion "0.5.0.0"
+#define MyAppVersionS "0.5.0.0"
 #define MyAppPublisher "Team nanometer"
 #define MyAppExeName "MIRAI.exe"
 #define MyAppAssocName MyAppName + " File"
