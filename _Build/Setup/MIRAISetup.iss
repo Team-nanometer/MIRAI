@@ -2,8 +2,8 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "MIRAI"
-#define MyAppVersion "0.5.0.0"
-#define MyAppVersionS "0.5.0.0"
+#define MyAppVersion "0.5.1.0"
+#define MyAppVersionS "0.5.1.0"
 #define MyAppPublisher "Team nanometer"
 #define MyAppExeName "MIRAI.exe"
 #define MyAppAssocName MyAppName + " File"
@@ -18,7 +18,7 @@ AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 AppVerName={#MyAppName} - Version {#MyAppVersion}
 AppPublisher={#MyAppPublisher}
-AppCopyright=Copyright 2022 {#MyAppPublisher}
+AppCopyright={#MyAppName} (c) 2022 {#MyAppPublisher}
 DefaultDirName={autopf}\{#MyAppName}
 DisableDirPage=yes
 ChangesAssociations=yes
