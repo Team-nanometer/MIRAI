@@ -10,18 +10,12 @@
 	はじめの手順
 		ニュースデータという辞書を作る
 		
-		ニュースデータURL={
-			「https://news.mynavi.jp/rss/entertainment/hobby」,
-			「https://news.mynavi.jp/rss/digital/pc」
-		}
-		/*ニュースデータURL={
-			「..\index.xml」,
-			「..\index.xml」
-		}*/
+		//ニュースデータURL={「https://news.mynavi.jp/rss/entertainment/hobby」,「https://news.mynavi.jp/rss/digital/pc」}
+		ニュースデータURL={「..\pc.xml」,「..\hobby.xml」}
 	終わり
 	
 	自分で【ニュースID:整数】としてニュースデータ取得する手順:辞書
-		ニュースデータの内容=空
+		ニュースデータの内容={}
 		
 		「[ニュースデータURL(ニュースID)]」をXMLとして開いたものから「rdf:RDF\item」を取得したものを要素へそれぞれ繰り返す
 			//配列の内容: 1=説明 2=画像URL 3=記事URL 4=日付時刻
