@@ -14,7 +14,7 @@
     <項目 位置="rdr\Debug.rdr" />
   </一覧>
   <バージョン 値="0.5.3.0">
-    <項目 名前="Comments" 値="総合ユーティリティアプリケーション / A comprehensive utility application" />
+    <項目 名前="Comments" 値="総合ユーティリティアプリケーション" />
     <項目 名前="FileDescription" 値="MIRAI" />
     <項目 名前="CompanyName" 値="Team nanometer" />
     <項目 名前="ProductName" 値="MIRAI" />
