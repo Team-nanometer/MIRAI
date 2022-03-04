@@ -10,8 +10,8 @@
     <項目 位置="rdr\_Procedure\SoundDeviceManager.rdr" />
     <項目 位置="rdr\_Procedure\NotificationAreaIconManager.rdr" />
     <項目 位置="rdr\_Procedure\HotkeyManager.rdr" />
-    <項目 位置="rdr\_Procedure\TimerManager.rdr" />
-    <項目 位置="rdr\Debug.rdr" />
+    <項目 位置="rdr\_Procedure\TimerManager.rdr" 開く="○" />
+    <項目 位置="rdr\Debug.rdr" 開く="○" />
     <項目 位置="rdr\_Procedure\NotificationBannerManager.rdr" 開く="○" />
   </一覧>
   <バージョン 値="0.5.3.0">
