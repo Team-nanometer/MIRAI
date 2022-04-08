@@ -1,0 +1,20 @@
+{
+	"Info": {
+		"Version": 1
+	},
+	"List": {
+		"Genshin Impact": [
+			"Albedo","Aloy","Amber","Arataki Itto","Barbara","Beidou","Bennett","Chongyun","Diluc","Diona","Eula","Fischl","Ganyu","Gorou","Hu Tao","Jean","Kaedehara Kazuha","Kaeya","Kamisato Ayaka","Keqing","Klee","Kujou Sara","Lisa","Mona","Ningguang","Noelle","Qiqi","Raiden Shogun","Razor","Rosaria","Sangonomiya Kokomi","Sayu","Shenhe","Sucrose","Tartaglia","Thoma","Traveler","Venti","Xiangling","Xiao","Xingqiu","Xinyan","Yanfei","Yun Jin","Zhongli","Paimon","Tenoji"
+		],
+		"Apex Legends": [
+			"- Season 0 -","Bloodhound","Gibraltar","Lifeline","Pathfinder","Wraith","Bangalore","Caustic","Mirage","- Season 1 | Wild Frontier -","Octane","- Season 2 | Battle Charge -","Wattson","- Season 3 | Meltdown -","Crypto","- Season 4 | Assimilation -","Forge","Revenant","- Season 5 | Fortune's Favor -","Loba","- Season 6 | Boosted -","Rampart","- Season 7 | Ascension -","Horizon","- Season 8 | Mayhem -","Fuze","- Legacy -","Valkyrie","- Emergence -","Seer","- Escape -","Ash","- Defiance -","Mad Maggie"
+		],
+		"Rainbow Six Siege": [
+			"- PATHFINDER -","SLEDGE","THATCHER","MUTE","SMOKE","MONTAGNE","TWITCH","DOC","ROOK","THERMITE","ASH","CASTLE","PULSE","IQ","BLITZ","BANDIT","JAGER","FUZE","GLAZ","KAPKAN","TACHANKA","- Y1S1 | OPERATION BLACK ICE -","BUCK","FROST","- Y1S2 | OPERATION DUST LINE -","BLACKBEARD","VALKYRIE","- Y1S3 | OPERATION SKULL RAIN -","CAPITAO","CAVEIRA","- Y1S4 | OPERATION RED CROW -","HIBANA","ECHO","- Y2S1 | OPERATION VELVET SHELL -","JACKAL","MIRA","- Y2S3 | OPERATION BLOOD ORCHID-","YING","LESION","ZOFIA","- Y2S4 | OPERATION WHITE NOISE -","DOKKAEBI","VIGIL","ELA","- Y3S1 | OPERATION CHIMERA -","FINKA","LION","- Y3S2 | OPERATION PARA BELLUM -","ALIBI","MAESTRO","- Y3S3 | OPERATION GRIM SKY -","MAVERICK","CLASH","- Y3S4 | OPERATION WIND BASTION -","NOMAD","KAID","- Y4S1 | OPERATION BURNT HORIZON -","GRIDLOCK","MOZZIE","- Y4S2 | OPERATION PHANTOM SIGHT -","NOKK","WARDEN","- Y4S3 | OPERATION EMBER RISE -","AMARU","GOYO","- Y4S4 | OPERATION SHIFTING TIDES -","KALI","WAMAI","- Y5S1 | OPERATION VOID EDGE -","IANA","ORYX","- Y5S2 | OPERATION STEEL WAVE -","ACE","MELUSI","- Y5S3 | OPERATION SHADOW LEGACY -","ZERO","- Y5S4 | OPERATION NEON DAWN -","ARUNI","- Y6S1 | CRIMSON HEIST -","FLORES","- Y6S2 | NORTH STAR -","THUNDERBIRD","- Y6S3 | CRYSTAL GUARD -","OSA","- Y6S4 | HIGH CALIBRE -","THORN"
+		]
+	},
+	"Properties": {
+		"Type_1": "元作品タイトル",
+		"Type_2": "キャラクター名"
+	}
+}
