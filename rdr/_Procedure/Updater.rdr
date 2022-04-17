@@ -1,6 +1,7 @@
 アップデーターとは
 	単一種類
 	
+	+アップデートデータ
 	-アップデートデータURL=「https://api.github.com/repos/Team-nanometer/MIRAI/releases」
 	-テストアップデートデータ=「「[
   {
