@@ -21,7 +21,9 @@
 	自分で再生デバイス更新する手順
 		再生デバイス一覧={}
 		(レジストリ:「HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Render」のキー一覧)をキーへそれぞれ繰り返す
-			再生デバイス一覧へ「[レジストリ:「HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Render\[キー]\Properties\{b3f8fa53-0004-438e-9003-51a46e139bfc},6」を取得したもの] | [レジストリ:「HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Render\[キー]\Properties\{a45c254e-df1c-4efd-8020-67d146a850e0},2」を取得したもの]」を加える
+			もし(レジストリ:「HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Render\[キー]\DeviceState」を取得したもの)が1なら
+				再生デバイス一覧へ「[レジストリ:「HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Render\[キー]\Properties\{b3f8fa53-0004-438e-9003-51a46e139bfc},6」を取得したもの] | [レジストリ:「HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Render\[キー]\Properties\{a45c254e-df1c-4efd-8020-67d146a850e0},2」を取得したもの]」を加える
+			もし終わり
 		繰り返し終わり
 		再生デバイス一覧を名前順に並び替える
 	終わり
@@ -29,7 +31,9 @@
 	自分で録音デバイス更新する手順
 		録音デバイス一覧={}
 		(レジストリ:「HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Capture」のキー一覧)をキーへそれぞれ繰り返す
-			録音デバイス一覧へ「[レジストリ:「HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Capture\[キー]\Properties\{b3f8fa53-0004-438e-9003-51a46e139bfc},6」を取得したもの] | [レジストリ:「HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Capture\[キー]\Properties\{a45c254e-df1c-4efd-8020-67d146a850e0},2」を取得したもの]」を加える
+			もし(レジストリ:「HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Capture\[キー]\DeviceState」を取得したもの)が1なら
+				録音デバイス一覧へ「[レジストリ:「HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Capture\[キー]\Properties\{b3f8fa53-0004-438e-9003-51a46e139bfc},6」を取得したもの] | [レジストリ:「HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Capture\[キー]\Properties\{a45c254e-df1c-4efd-8020-67d146a850e0},2」を取得したもの]」を加える
+			もし終わり
 		繰り返し終わり
 		録音デバイス一覧を名前順に並び替える
 	終わり
