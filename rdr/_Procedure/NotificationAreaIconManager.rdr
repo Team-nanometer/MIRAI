@@ -1,4 +1,11 @@
-//「..\..\Resources\Logo\MIRAI_Logo_Icon.ico」を素材として利用する
+「..\..\Resources\Logo\MIRAI_Logo_Icon.ico」を素材として利用する
+「..\..\Resources\Icons\cross.png」を素材として利用する
+「..\..\Resources\Icons\gear.png」を素材として利用する
+「..\..\Resources\Icons\hourglass.png」を素材として利用する
+「..\..\Resources\Icons\note.png」を素材として利用する
+「..\..\Resources\Icons\quillpensquare.png」を素材として利用する
+「..\..\Resources\Icons\window.png」を素材として利用する
+
 
 通知領域アイコンとは
 	通知アイコンを継承する
