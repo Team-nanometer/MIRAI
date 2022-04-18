@@ -8,7 +8,7 @@
 	単一種類
 	
 	+内部バージョン=「220303」
-	+ディスプレイスケール値={120,120}
+	+ディスプレイスケール値={96,96}
 	+作者=「Team nanometer」
 	+作者ウェブURL=「https://nanometer.ml/」
 	-モジュール一覧={「NirCmd」=「Copyright (c) 2003 - 2019 Nir Sofer」}
