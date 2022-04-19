@@ -2,7 +2,7 @@
   <一覧>
     <項目 位置="rdr\ProjectInfo.rdr" 開く="○" />
     <項目 位置="rdr\Window.rdr" 開く="○" />
-    <項目 位置="rdr\Main.rdr" 開始="○" 開く="○" />
+    <項目 位置="rdr\Main.rdr" 開始="○" />
     <項目 位置="rdr\_Procedure\PresetManager.rdr" />
     <項目 位置="rdr\_Procedure\FileManager.rdr" />
     <項目 位置="rdr\_Procedure\FilenameGeneratorFormatParser.rdr" />
@@ -12,9 +12,9 @@
     <項目 位置="rdr\_Procedure\HotkeyManager.rdr" />
     <項目 位置="rdr\_Procedure\TimerManager.rdr" />
     <項目 位置="rdr\Debug.rdr" />
-    <項目 位置="rdr\_Procedure\NotificationBannerManager.rdr" />
+    <項目 位置="rdr\_Procedure\NotificationBanner.rdr" />
   </一覧>
-  <バージョン 値="0.5.3.0">
+  <バージョン 値="0.6.0.0">
     <項目 名前="Comments" 値="総合ユーティリティアプリケーション" />
     <項目 名前="FileDescription" 値="MIRAI" />
     <項目 名前="CompanyName" 値="Team nanometer" />
@@ -24,5 +24,5 @@
   <リソース>
     <項目 名前="アイコン" 値="Resources\Logo\MIRAI_Logo_Icon.ico" />
   </リソース>
-  <実行開始 モード="RunAs" パス="C:\Users\Milkeyyy\Documents\GitHub\Produire\MIRAI\_dbg_showdebugwindow.bat" 形式="Executable" />
+  <実行開始 モード="RunAs" パス="C:\Users\Milkeyyy\Documents\GitHub\_Produire\MIRAI\_dbg_showdebugwindow.bat" 形式="Executable" />
 </プロジェクト>
