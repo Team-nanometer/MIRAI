@@ -2,14 +2,14 @@
   <一覧>
     <項目 位置="rdr\ProjectInfo.rdr" 開く="○" />
     <項目 位置="rdr\Window.rdr" 開く="○" />
-    <項目 位置="rdr\Main.rdr" 開始="○" />
+    <項目 位置="rdr\Main.rdr" 開始="○" 開く="○" />
     <項目 位置="rdr\_Procedure\PresetManager.rdr" />
     <項目 位置="rdr\_Procedure\FileManager.rdr" />
     <項目 位置="rdr\_Procedure\FilenameGeneratorFormatParser.rdr" />
     <項目 位置="rdr\_Procedure\Updater.rdr" />
     <項目 位置="rdr\_Procedure\SoundDeviceManager.rdr" />
     <項目 位置="rdr\_Procedure\NotificationAreaIconManager.rdr" />
-    <項目 位置="rdr\_Procedure\HotkeyManager.rdr" />
+    <項目 位置="rdr\_Procedure\HotkeyManager.rdr" 開く="○" />
     <項目 位置="rdr\_Procedure\TimerManager.rdr" />
     <項目 位置="rdr\Debug.rdr" />
     <項目 位置="rdr\_Procedure\NotificationBanner.rdr" />
@@ -24,5 +24,5 @@
   <リソース>
     <項目 名前="アイコン" 値="Resources\Logo\MIRAI_Logo_Icon.ico" />
   </リソース>
-  <実行開始 モード="RunAs" パス="C:\Users\Milkeyyy\Documents\GitHub\_Produire\MIRAI\_dbg_showdebugwindow.bat" 形式="Executable" />
+  <実行開始 モード="RunAs" パス="C:\Users\Milkeyyy\Documents\GitHub\_Produire\MIRAI\_dbg_noarg.bat" 形式="Executable" />
 </プロジェクト>
